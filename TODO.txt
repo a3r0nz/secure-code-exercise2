@@ -1,0 +1,6 @@
+Extra Miles:
+
+- ใช้ PSR-4 autoload แยกไฟล์ src/ สำหรับคลาสและ public/ สำหรับสคริปต์
+- เพิ่ม Security Headers (เช่น CSP, HSTS, X-Frame-Options) 
+- ลองเชื่อมโยงกับ OWASP Cheat Sheets Index เพื่ออ่านต่อหมวดที่เกี่ยวกับ A01-A10 ทั้งหมด
+https://cheatsheetseries.owasp.org/IndexTopTen.html

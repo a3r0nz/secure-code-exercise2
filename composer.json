@@ -1,0 +1,21 @@
+{
+  "name": "sth/php-security-exercises",
+  "description": "PHP Security Exercises with PSR-4 autoloading",
+  "type": "project",
+  "authors": [
+    {
+      "name": "6752600210"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "STH\\SecurityExercises\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
